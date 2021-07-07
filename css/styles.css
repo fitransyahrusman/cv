@@ -1,0 +1,124 @@
+/*
+#E4F9F5
+#66BFBF
+#11999E
+#EAF6F6
+#40514E
+#11999E
+#66BFBF
+*/
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+}
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  margin: 0 auto 0 auto;
+}
+/*---------------- Class Selector ----------------*/
+.top-container {
+
+  position: relative;
+  padding-top: 100px;
+  background-color: #EAF6F6
+}
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 25px auto 0 auto;
+  padding : 50px 0 50px 0;
+  line-height: 2;
+}
+.underline-txt {
+  text-decoration: underline;
+}
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.cityscape{
+  width: 32rem;
+}
+.profile{
+  margin: 50px auto 0 auto;
+  width: 50%;
+  line-height: 2;
+}
+.profile-img{
+  width: 25%;
+}
+.skill-row{
+  width: 50%;
+  margin : 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.footer-link:hover{
+  color:white;
+}
+.eo-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.comm-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+/* .eo-img-text{
+  clear : left;
+}
+.comm-img-text{
+  clear : right;
+} */
+.profile{
+  margin-bottom: 100px;
+}
+.middle-container-hr{
+    width: 5%;
+    border-style: dotted none none none;
+    border-width: 0.46875rem;
+    border-color: #40514E;
+}
+.skills{
+  margin-top: 100px;
+}
+.contact-me{
+  width: 50%;
+  margin : 100px auto 100px auto;
+    line-height: 2;
+}
+/*---------------- ID Selector ----------------*/
+#button-grad{
+    background-image: linear-gradient(#66BFBF, #11999E);
+    color: #EAF6F6;
+    padding: 5px 20px;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+}
